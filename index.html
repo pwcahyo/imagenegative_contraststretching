@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/script.js"></script>
+<title>Image Negatife and Contrast Stretching</title>
+</head>
+<body>
+    <div class="example">
+        <div class="column1">
+            Reset to:<br />
+            <input type="button" onclick="resetToColor()" value="Color" /><hr />
+            Adjustment:<br />
+             <input type="button" onclick="resetToInvert()" value="Negative Colors" />
+             <input type="button" onclick="resetToContrastStretching_s()" value="Contrast Stretching" />
+        </div>
+        <div class="column2">
+            <canvas id="orig" width="500" height="333"></canvas>
+            <canvas id="panel" width="500" height="333"></canvas>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <hr style="clear:both;" />
+</body>
+</html>
